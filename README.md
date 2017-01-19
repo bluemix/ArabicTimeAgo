@@ -22,6 +22,8 @@ if let date = formatter.date(from: itemDateStr) {
 ```
 
 ## Requirements
+Swift 3
+
 
 ## Installation
 
