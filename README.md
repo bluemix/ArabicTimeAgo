@@ -5,6 +5,12 @@
 [![License](https://img.shields.io/cocoapods/l/ArabicTimeAgo.svg?style=flat)](http://cocoapods.org/pods/ArabicTimeAgo)
 [![Platform](https://img.shields.io/cocoapods/p/ArabicTimeAgo.svg?style=flat)](http://cocoapods.org/pods/ArabicTimeAgo)
 
+
+
+[![Screenshot](art/ArabicTimeAgo_demo.png)](http://cocoapods.org/pods/ArabicTimeAgo)
+
+
+
 ## Usage
 
 ```
