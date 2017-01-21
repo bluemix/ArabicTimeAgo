@@ -13,16 +13,17 @@
 
 ## Usage
 
-```
+```swift
+import ArabicTimeAgo
+...
+
 let itemDateStr = "2017-01-19 09:12:07"
 let formatter = DateFormatter()
 formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
 
 if let date = formatter.date(from: itemDateStr) {
-
   print(TimeAgo.calculate(date: date, isAr: true))  // قبل 13 ساعة
   print(TimeAgo.calculate(date: date, isAr: false)) // 13 hours ago
-
 }
 
 ```
