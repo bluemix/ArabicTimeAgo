@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00CBEE96DB0825252156061ADD3BEE77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		043B54CECC1E6795E5EE47BC09650BB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		048DB3BEEE7C5C6EB3C12D068ECDEDCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0FD4189A407769B305C07D2DE1CC7DBC /* ArabicTimeAgo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1100F4C2121ED6F76C26522B35866AE /* ArabicTimeAgo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		271F6ABC1F7E41AF3CB168D37583EE33 /* Pods-ArabicTimeAgoExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2292B652015C44012B1025F631596F2C /* Pods-ArabicTimeAgoExampleUITests-dummy.m */; };
+		2DC51A1D67A3A2D482E701CC4ED1C20D /* Pods-ArabicTimeAgoExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED07306C2AA4B78D068C25B3D5E229 /* Pods-ArabicTimeAgoExampleTests-dummy.m */; };
+		3220248F45D1C4EE57440FEE1216A25D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5592E14AB2DABB88B38BDF32ABC8BB6E /* ArTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5671DA41E711A94A5A3D3B77C8406D4 /* ArTimeAgo.swift */; };
+		66B526269D75FBA8F7F0854ED09D982D /* Pods-ArabicTimeAgoExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D14EC6E68F8D1F6F3648A8B65DAEFD /* Pods-ArabicTimeAgoExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69D2437E84C410E72694398FC7062821 /* Pods-ArabicTimeAgoExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE53B468782C09906937DE6B60DF94B9 /* Pods-ArabicTimeAgoExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B01D86D7B83DD00048FD8397FFF74CEC /* Pods-ArabicTimeAgoExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D1154AC1AB645241242B9D70CD132F /* Pods-ArabicTimeAgoExample-dummy.m */; };
+		C5F0259E178223387F8C3B378CB256EB /* ArabicTimeAgo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9727C95B730A5338B0E9C856217484B9 /* ArabicTimeAgo-dummy.m */; };
+		E21594728018208AD1CE642ADDFB65A5 /* Pods-ArabicTimeAgoExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 406CAAB11D73EBFAF15017809AFA701D /* Pods-ArabicTimeAgoExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D84BA68540F67C3B30F9861F4038EF52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A594756267997CAEA4770AF195D213F;
+			remoteInfo = ArabicTimeAgo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007DEBE28B2F99D5813C797E8620C002 /* Pods-ArabicTimeAgoExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ArabicTimeAgoExampleUITests.modulemap"; sourceTree = "<group>"; };
+		0CA6BB8705E7D291D0360AD7F3DE00F0 /* Pods-ArabicTimeAgoExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArabicTimeAgoExample.debug.xcconfig"; sourceTree = "<group>"; };
+		194D7A461499889E8F4AD085009E13B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B48ACF156584F2A751F1E8EE6471152 /* Pods-ArabicTimeAgoExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArabicTimeAgoExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1BAF484C2E8B9BABE7BE2C2AED4C263F /* Pods-ArabicTimeAgoExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArabicTimeAgoExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		203630CB1A95A53AA9079FD9114B74E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2292B652015C44012B1025F631596F2C /* Pods-ArabicTimeAgoExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArabicTimeAgoExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		2D7AEEA30C4A0E67371061365F4C8B50 /* Pods-ArabicTimeAgoExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArabicTimeAgoExample-resources.sh"; sourceTree = "<group>"; };
+		35F3B89E98DC32FD59F2AD05CFE45106 /* Pods-ArabicTimeAgoExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArabicTimeAgoExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37ABCC7EB75181FFB508556DB73EF398 /* Pods-ArabicTimeAgoExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArabicTimeAgoExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		38FC4DB3B41C2E90F009E68591C1B80F /* ArabicTimeAgo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ArabicTimeAgo.xcconfig; sourceTree = "<group>"; };
+		406CAAB11D73EBFAF15017809AFA701D /* Pods-ArabicTimeAgoExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArabicTimeAgoExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		4DC57ED0171206FB812BCC124960E311 /* Pods_ArabicTimeAgoExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArabicTimeAgoExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E28ABC719F62A777F437A5D7AAAAC0B /* Pods-ArabicTimeAgoExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArabicTimeAgoExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70ED07306C2AA4B78D068C25B3D5E229 /* Pods-ArabicTimeAgoExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArabicTimeAgoExampleTests-dummy.m"; sourceTree = "<group>"; };
+		71E24C16293429C466827C8C7D8B7A19 /* ArabicTimeAgo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ArabicTimeAgo-prefix.pch"; sourceTree = "<group>"; };
+		757A69E720A1161701AE9886298C2B9C /* Pods-ArabicTimeAgoExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArabicTimeAgoExample-frameworks.sh"; sourceTree = "<group>"; };
+		7985BF6D5FAFA17FD83A92063356A113 /* Pods-ArabicTimeAgoExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArabicTimeAgoExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A930F7B0CDF395E85B850E0B358FB2A /* Pods-ArabicTimeAgoExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArabicTimeAgoExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		8863230606104955F4500B820276F718 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		920AEA258E0DF6DF4BD9DFB38041F7CF /* Pods-ArabicTimeAgoExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ArabicTimeAgoExample.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9727C95B730A5338B0E9C856217484B9 /* ArabicTimeAgo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ArabicTimeAgo-dummy.m"; sourceTree = "<group>"; };
+		9D0262E3143B9F6CADAFE40B6474BCF3 /* Pods-ArabicTimeAgoExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArabicTimeAgoExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E5D634F45500D3E5E7B86E855B1ACDC /* Pods-ArabicTimeAgoExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArabicTimeAgoExample.release.xcconfig"; sourceTree = "<group>"; };
+		A074A921A673FFD873AB116F450796E8 /* ArabicTimeAgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArabicTimeAgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09FFF7B67EAF03E962632556B5C6AF3 /* Pods-ArabicTimeAgoExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArabicTimeAgoExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6D1154AC1AB645241242B9D70CD132F /* Pods-ArabicTimeAgoExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArabicTimeAgoExample-dummy.m"; sourceTree = "<group>"; };
+		B6D3A07888756774C54F134F5E19E3D1 /* ArabicTimeAgo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ArabicTimeAgo.modulemap; sourceTree = "<group>"; };
+		BC68D09043DFC6D55F29E340B51D3AC7 /* Pods-ArabicTimeAgoExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArabicTimeAgoExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1100F4C2121ED6F76C26522B35866AE /* ArabicTimeAgo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ArabicTimeAgo-umbrella.h"; sourceTree = "<group>"; };
+		C4FE122CF30F25E59E7C510722293D5B /* Pods-ArabicTimeAgoExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArabicTimeAgoExampleTests-resources.sh"; sourceTree = "<group>"; };
+		C88573672511A3F2AF37CAF1B5F7DB66 /* Pods_ArabicTimeAgoExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArabicTimeAgoExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFAAFFBBAE1AF0D7F54CF88AB17902C1 /* Pods-ArabicTimeAgoExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArabicTimeAgoExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		DC9134DAFE1B2DD92F5DC6E915A1BE5D /* Pods-ArabicTimeAgoExampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArabicTimeAgoExampleUITests-resources.sh"; sourceTree = "<group>"; };
+		DE53B468782C09906937DE6B60DF94B9 /* Pods-ArabicTimeAgoExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArabicTimeAgoExample-umbrella.h"; sourceTree = "<group>"; };
+		E5671DA41E711A94A5A3D3B77C8406D4 /* ArTimeAgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArTimeAgo.swift; sourceTree = "<group>"; };
+		EA1D3A57EC32F2F595FE9A49C9CAE976 /* Pods-ArabicTimeAgoExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ArabicTimeAgoExampleTests.modulemap"; sourceTree = "<group>"; };
+		F4B509F390BA3A779C872937CD30F7F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D14EC6E68F8D1F6F3648A8B65DAEFD /* Pods-ArabicTimeAgoExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArabicTimeAgoExampleUITests-umbrella.h"; sourceTree = "<group>"; };
+		F60670D0F9EBA58F4548A6BA43B34F71 /* Pods_ArabicTimeAgoExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArabicTimeAgoExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB17F38FA16088D3431D99D11E6B98E9 /* Pods-ArabicTimeAgoExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArabicTimeAgoExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C3F29634ED38A932C3BA8CEE936F014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048DB3BEEE7C5C6EB3C12D068ECDEDCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA0E9932421B714FF458C6E6A62D478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CBEE96DB0825252156061ADD3BEE77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F58E3D2F4B28A1FF17058B51F9047B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3220248F45D1C4EE57440FEE1216A25D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC0D5A37BAC6601AA92D362F6215D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043B54CECC1E6795E5EE47BC09650BB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26E636DA2307B5A536BD482DFF655F7D /* ArabicTimeAgo */ = {
+			isa = PBXGroup;
+			children = (
+				2B83C97AAD502C740F941F00D14B9FF6 /* Classes */,
+			);
+			path = ArabicTimeAgo;
+			sourceTree = "<group>";
+		};
+		2B83C97AAD502C740F941F00D14B9FF6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E5671DA41E711A94A5A3D3B77C8406D4 /* ArTimeAgo.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		33F0F52B6059EE0269B108503E92519C /* Pods-ArabicTimeAgoExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8863230606104955F4500B820276F718 /* Info.plist */,
+				007DEBE28B2F99D5813C797E8620C002 /* Pods-ArabicTimeAgoExampleUITests.modulemap */,
+				6E28ABC719F62A777F437A5D7AAAAC0B /* Pods-ArabicTimeAgoExampleUITests-acknowledgements.markdown */,
+				1B48ACF156584F2A751F1E8EE6471152 /* Pods-ArabicTimeAgoExampleUITests-acknowledgements.plist */,
+				2292B652015C44012B1025F631596F2C /* Pods-ArabicTimeAgoExampleUITests-dummy.m */,
+				1BAF484C2E8B9BABE7BE2C2AED4C263F /* Pods-ArabicTimeAgoExampleUITests-frameworks.sh */,
+				DC9134DAFE1B2DD92F5DC6E915A1BE5D /* Pods-ArabicTimeAgoExampleUITests-resources.sh */,
+				F5D14EC6E68F8D1F6F3648A8B65DAEFD /* Pods-ArabicTimeAgoExampleUITests-umbrella.h */,
+				FB17F38FA16088D3431D99D11E6B98E9 /* Pods-ArabicTimeAgoExampleUITests.debug.xcconfig */,
+				37ABCC7EB75181FFB508556DB73EF398 /* Pods-ArabicTimeAgoExampleUITests.release.xcconfig */,
+			);
+			name = "Pods-ArabicTimeAgoExampleUITests";
+			path = "Target Support Files/Pods-ArabicTimeAgoExampleUITests";
+			sourceTree = "<group>";
+		};
+		5A4FDBCB1C87AF6E244E1FB5AA5A7814 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC6DCF6A23B7435BEFBEBECFE8DA6D /* ArabicTimeAgo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5D1556412F61CD7EA5906B4FC81CED29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A074A921A673FFD873AB116F450796E8 /* ArabicTimeAgo.framework */,
+				F60670D0F9EBA58F4548A6BA43B34F71 /* Pods_ArabicTimeAgoExample.framework */,
+				C88573672511A3F2AF37CAF1B5F7DB66 /* Pods_ArabicTimeAgoExampleTests.framework */,
+				4DC57ED0171206FB812BCC124960E311 /* Pods_ArabicTimeAgoExampleUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		77CB651A512EBCF8F82027B8AABBBDDF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6D3A07888756774C54F134F5E19E3D1 /* ArabicTimeAgo.modulemap */,
+				38FC4DB3B41C2E90F009E68591C1B80F /* ArabicTimeAgo.xcconfig */,
+				9727C95B730A5338B0E9C856217484B9 /* ArabicTimeAgo-dummy.m */,
+				71E24C16293429C466827C8C7D8B7A19 /* ArabicTimeAgo-prefix.pch */,
+				C1100F4C2121ED6F76C26522B35866AE /* ArabicTimeAgo-umbrella.h */,
+				203630CB1A95A53AA9079FD9114B74E7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "ArabicTimeAgoExample/Pods/Target Support Files/ArabicTimeAgo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5A4FDBCB1C87AF6E244E1FB5AA5A7814 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5D1556412F61CD7EA5906B4FC81CED29 /* Products */,
+				858A8CE7FEED57BC050AC243C43763A7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		858A8CE7FEED57BC050AC243C43763A7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A765308070B6DCCD4E2920FE83CF22CD /* Pods-ArabicTimeAgoExample */,
+				E364D1F833F3451FCFA49F85CFA75232 /* Pods-ArabicTimeAgoExampleTests */,
+				33F0F52B6059EE0269B108503E92519C /* Pods-ArabicTimeAgoExampleUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A765308070B6DCCD4E2920FE83CF22CD /* Pods-ArabicTimeAgoExample */ = {
+			isa = PBXGroup;
+			children = (
+				F4B509F390BA3A779C872937CD30F7F5 /* Info.plist */,
+				920AEA258E0DF6DF4BD9DFB38041F7CF /* Pods-ArabicTimeAgoExample.modulemap */,
+				BC68D09043DFC6D55F29E340B51D3AC7 /* Pods-ArabicTimeAgoExample-acknowledgements.markdown */,
+				7A930F7B0CDF395E85B850E0B358FB2A /* Pods-ArabicTimeAgoExample-acknowledgements.plist */,
+				A6D1154AC1AB645241242B9D70CD132F /* Pods-ArabicTimeAgoExample-dummy.m */,
+				757A69E720A1161701AE9886298C2B9C /* Pods-ArabicTimeAgoExample-frameworks.sh */,
+				2D7AEEA30C4A0E67371061365F4C8B50 /* Pods-ArabicTimeAgoExample-resources.sh */,
+				DE53B468782C09906937DE6B60DF94B9 /* Pods-ArabicTimeAgoExample-umbrella.h */,
+				0CA6BB8705E7D291D0360AD7F3DE00F0 /* Pods-ArabicTimeAgoExample.debug.xcconfig */,
+				9E5D634F45500D3E5E7B86E855B1ACDC /* Pods-ArabicTimeAgoExample.release.xcconfig */,
+			);
+			name = "Pods-ArabicTimeAgoExample";
+			path = "Target Support Files/Pods-ArabicTimeAgoExample";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEDC6DCF6A23B7435BEFBEBECFE8DA6D /* ArabicTimeAgo */ = {
+			isa = PBXGroup;
+			children = (
+				26E636DA2307B5A536BD482DFF655F7D /* ArabicTimeAgo */,
+				77CB651A512EBCF8F82027B8AABBBDDF /* Support Files */,
+			);
+			name = ArabicTimeAgo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E364D1F833F3451FCFA49F85CFA75232 /* Pods-ArabicTimeAgoExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				194D7A461499889E8F4AD085009E13B4 /* Info.plist */,
+				EA1D3A57EC32F2F595FE9A49C9CAE976 /* Pods-ArabicTimeAgoExampleTests.modulemap */,
+				35F3B89E98DC32FD59F2AD05CFE45106 /* Pods-ArabicTimeAgoExampleTests-acknowledgements.markdown */,
+				9D0262E3143B9F6CADAFE40B6474BCF3 /* Pods-ArabicTimeAgoExampleTests-acknowledgements.plist */,
+				70ED07306C2AA4B78D068C25B3D5E229 /* Pods-ArabicTimeAgoExampleTests-dummy.m */,
+				CFAAFFBBAE1AF0D7F54CF88AB17902C1 /* Pods-ArabicTimeAgoExampleTests-frameworks.sh */,
+				C4FE122CF30F25E59E7C510722293D5B /* Pods-ArabicTimeAgoExampleTests-resources.sh */,
+				406CAAB11D73EBFAF15017809AFA701D /* Pods-ArabicTimeAgoExampleTests-umbrella.h */,
+				A09FFF7B67EAF03E962632556B5C6AF3 /* Pods-ArabicTimeAgoExampleTests.debug.xcconfig */,
+				7985BF6D5FAFA17FD83A92063356A113 /* Pods-ArabicTimeAgoExampleTests.release.xcconfig */,
+			);
+			name = "Pods-ArabicTimeAgoExampleTests";
+			path = "Target Support Files/Pods-ArabicTimeAgoExampleTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06007D400F7202761509E6936CAD7528 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD4189A407769B305C07D2DE1CC7DBC /* ArabicTimeAgo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D3AB8915E2A5CBF9CAEA08E035FF7E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21594728018208AD1CE642ADDFB65A5 /* Pods-ArabicTimeAgoExampleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972E2AC9E749B407EFD88B6BBB750986 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D2437E84C410E72694398FC7062821 /* Pods-ArabicTimeAgoExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23946C7C8711C9718AB9E0F63459A52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B526269D75FBA8F7F0854ED09D982D /* Pods-ArabicTimeAgoExampleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A594756267997CAEA4770AF195D213F /* ArabicTimeAgo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3A177678A8F482F8008EC0A4F0C03CF /* Build configuration list for PBXNativeTarget "ArabicTimeAgo" */;
+			buildPhases = (
+				E4C00720B1A1410C1C6AF935A218DB32 /* Sources */,
+				AFC0D5A37BAC6601AA92D362F6215D37 /* Frameworks */,
+				06007D400F7202761509E6936CAD7528 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArabicTimeAgo;
+			productName = ArabicTimeAgo;
+			productReference = A074A921A673FFD873AB116F450796E8 /* ArabicTimeAgo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1CCF14C25CC9B85BF86652DE7D499B15 /* Pods-ArabicTimeAgoExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CBCDF876C2370388DF20EE890692E9E /* Build configuration list for PBXNativeTarget "Pods-ArabicTimeAgoExampleTests" */;
+			buildPhases = (
+				F23962AC981AE0778D072816948E5326 /* Sources */,
+				5FA0E9932421B714FF458C6E6A62D478 /* Frameworks */,
+				8D3AB8915E2A5CBF9CAEA08E035FF7E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ArabicTimeAgoExampleTests";
+			productName = "Pods-ArabicTimeAgoExampleTests";
+			productReference = C88573672511A3F2AF37CAF1B5F7DB66 /* Pods_ArabicTimeAgoExampleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C5E8F7F193E83913713A5FAAC2A5319 /* Pods-ArabicTimeAgoExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B8565054C52EB88E41079AA38DC75E /* Build configuration list for PBXNativeTarget "Pods-ArabicTimeAgoExampleUITests" */;
+			buildPhases = (
+				C8D317AE4EF102158C746FA14845D035 /* Sources */,
+				92F58E3D2F4B28A1FF17058B51F9047B /* Frameworks */,
+				C23946C7C8711C9718AB9E0F63459A52 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ArabicTimeAgoExampleUITests";
+			productName = "Pods-ArabicTimeAgoExampleUITests";
+			productReference = 4DC57ED0171206FB812BCC124960E311 /* Pods_ArabicTimeAgoExampleUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B6BD95F7E839D8D82D925F07E5613C7 /* Pods-ArabicTimeAgoExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C277BF825CCC1B815A5E8EC95CF3C11 /* Build configuration list for PBXNativeTarget "Pods-ArabicTimeAgoExample" */;
+			buildPhases = (
+				E661E9169DA69551867782B87AC01934 /* Sources */,
+				4C3F29634ED38A932C3BA8CEE936F014 /* Frameworks */,
+				972E2AC9E749B407EFD88B6BBB750986 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70FFD8F724C6AF8C6484C5D5F22D8E52 /* PBXTargetDependency */,
+			);
+			name = "Pods-ArabicTimeAgoExample";
+			productName = "Pods-ArabicTimeAgoExample";
+			productReference = F60670D0F9EBA58F4548A6BA43B34F71 /* Pods_ArabicTimeAgoExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0910;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5D1556412F61CD7EA5906B4FC81CED29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A594756267997CAEA4770AF195D213F /* ArabicTimeAgo */,
+				8B6BD95F7E839D8D82D925F07E5613C7 /* Pods-ArabicTimeAgoExample */,
+				1CCF14C25CC9B85BF86652DE7D499B15 /* Pods-ArabicTimeAgoExampleTests */,
+				6C5E8F7F193E83913713A5FAAC2A5319 /* Pods-ArabicTimeAgoExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8D317AE4EF102158C746FA14845D035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271F6ABC1F7E41AF3CB168D37583EE33 /* Pods-ArabicTimeAgoExampleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C00720B1A1410C1C6AF935A218DB32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F0259E178223387F8C3B378CB256EB /* ArabicTimeAgo-dummy.m in Sources */,
+				5592E14AB2DABB88B38BDF32ABC8BB6E /* ArTimeAgo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E661E9169DA69551867782B87AC01934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01D86D7B83DD00048FD8397FFF74CEC /* Pods-ArabicTimeAgoExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23962AC981AE0778D072816948E5326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC51A1D67A3A2D482E701CC4ED1C20D /* Pods-ArabicTimeAgoExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70FFD8F724C6AF8C6484C5D5F22D8E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ArabicTimeAgo;
+			target = 0A594756267997CAEA4770AF195D213F /* ArabicTimeAgo */;
+			targetProxy = D84BA68540F67C3B30F9861F4038EF52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		517DCBBFEDAF57A510F7F36B21D80E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38FC4DB3B41C2E90F009E68591C1B80F /* ArabicTimeAgo.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ArabicTimeAgo/ArabicTimeAgo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ArabicTimeAgo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ArabicTimeAgo/ArabicTimeAgo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ArabicTimeAgo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		96EF22E25C5DE9553659CA09F03E60B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7985BF6D5FAFA17FD83A92063356A113 /* Pods-ArabicTimeAgoExampleTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArabicTimeAgoExampleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArabicTimeAgoExampleTests/Pods-ArabicTimeAgoExampleTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArabicTimeAgoExampleTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A108F424972220F59C17B1D5328D4D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37ABCC7EB75181FFB508556DB73EF398 /* Pods-ArabicTimeAgoExampleUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArabicTimeAgoExampleUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArabicTimeAgoExampleUITests/Pods-ArabicTimeAgoExampleUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArabicTimeAgoExampleUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6A370F98AE0CD62E2502EE8055BF5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E5D634F45500D3E5E7B86E855B1ACDC /* Pods-ArabicTimeAgoExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArabicTimeAgoExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArabicTimeAgoExample/Pods-ArabicTimeAgoExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArabicTimeAgoExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A81442FFA532E6C37B54C1E8536A56FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38FC4DB3B41C2E90F009E68591C1B80F /* ArabicTimeAgo.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ArabicTimeAgo/ArabicTimeAgo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ArabicTimeAgo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ArabicTimeAgo/ArabicTimeAgo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ArabicTimeAgo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB4992E664A19281F81802BF8F217377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09FFF7B67EAF03E962632556B5C6AF3 /* Pods-ArabicTimeAgoExampleTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArabicTimeAgoExampleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArabicTimeAgoExampleTests/Pods-ArabicTimeAgoExampleTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArabicTimeAgoExampleTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9D8998D2A94AA2E558F0B2C76D832D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB17F38FA16088D3431D99D11E6B98E9 /* Pods-ArabicTimeAgoExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArabicTimeAgoExampleUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArabicTimeAgoExampleUITests/Pods-ArabicTimeAgoExampleUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArabicTimeAgoExampleUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2BB86B82FF727B6B1083FE688CB2224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA6BB8705E7D291D0360AD7F3DE00F0 /* Pods-ArabicTimeAgoExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArabicTimeAgoExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArabicTimeAgoExample/Pods-ArabicTimeAgoExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArabicTimeAgoExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B8565054C52EB88E41079AA38DC75E /* Build configuration list for PBXNativeTarget "Pods-ArabicTimeAgoExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D8998D2A94AA2E558F0B2C76D832D8 /* Debug */,
+				A108F424972220F59C17B1D5328D4D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CBCDF876C2370388DF20EE890692E9E /* Build configuration list for PBXNativeTarget "Pods-ArabicTimeAgoExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB4992E664A19281F81802BF8F217377 /* Debug */,
+				96EF22E25C5DE9553659CA09F03E60B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C277BF825CCC1B815A5E8EC95CF3C11 /* Build configuration list for PBXNativeTarget "Pods-ArabicTimeAgoExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BB86B82FF727B6B1083FE688CB2224 /* Debug */,
+				A6A370F98AE0CD62E2502EE8055BF5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3A177678A8F482F8008EC0A4F0C03CF /* Build configuration list for PBXNativeTarget "ArabicTimeAgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517DCBBFEDAF57A510F7F36B21D80E0A /* Debug */,
+				A81442FFA532E6C37B54C1E8536A56FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

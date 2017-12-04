@@ -5,11 +5,32 @@
 [![License](https://img.shields.io/cocoapods/l/ArabicTimeAgo.svg?style=flat)](http://cocoapods.org/pods/ArabicTimeAgo)
 [![Platform](https://img.shields.io/cocoapods/p/ArabicTimeAgo.svg?style=flat)](http://cocoapods.org/pods/ArabicTimeAgo)
 
-## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+[![Screenshot](art/ArabicTimeAgo_demo.png)](http://cocoapods.org/pods/ArabicTimeAgo)
+
+
+
+## Usage
+
+```swift
+import ArabicTimeAgo
+...
+
+let itemDateStr = "2017-01-19 09:12:07"
+let formatter = DateFormatter()
+formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+
+if let date = formatter.date(from: itemDateStr) {
+  print(TimeAgo.calculate(date: date, isAr: true))  // قبل 13 ساعة
+  print(TimeAgo.calculate(date: date, isAr: false)) // 13 hours ago
+}
+
+```
 
 ## Requirements
+Swift 3
+
 
 ## Installation
 

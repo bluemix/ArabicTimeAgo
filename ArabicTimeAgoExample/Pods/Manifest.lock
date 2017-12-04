@@ -1,0 +1,16 @@
+PODS:
+  - ArabicTimeAgo (0.1.1)
+
+DEPENDENCIES:
+  - ArabicTimeAgo (from `../`)
+
+EXTERNAL SOURCES:
+  ArabicTimeAgo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ArabicTimeAgo: 258b9937230d7122fd5e1c25ebb31d307dd878fc
+
+PODFILE CHECKSUM: 06b1996efc6c68ed7a29d7b6f2425c05c0770153
+
+COCOAPODS: 1.2.0.beta.3
