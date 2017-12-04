@@ -43,8 +43,8 @@ public class TimeAgo {
       case .twoDays: return isAr ? "يومين" : "days"
       case .days: return isAr ? "أيام" : "days"
 
-      case .week: return isAr ? "إسبوع" : "week"
-      case .twoWeeks: return isAr ? "إسبوعين" : "weeks"
+      case .week: return isAr ? "أسبوع" : "week"
+      case .twoWeeks: return isAr ? "أسبوعين" : "weeks"
       case .weeks: return isAr ? "أسابيع" : "weeks"
 
       case .month: return isAr ? "شهر" : "month"
