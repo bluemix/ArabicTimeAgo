@@ -38,7 +38,7 @@ public class TimeAgo {
       case .twoHours: return isAr ? "ساعتين" : "hours"
       case .hours: return isAr ? "ساعات" : "hours"
 
-      case .dayAgo: return isAr ? "البارحة" : "a day"
+      case .dayAgo: return isAr ? "الامس" : "Yesterday"
       case .day: return isAr ? "يوم" : "day"
       case .twoDays: return isAr ? "يومين" : "days"
       case .days: return isAr ? "أيام" : "days"
@@ -56,7 +56,6 @@ public class TimeAgo {
       case .twoYears: return isAr ? "سنتين" : "years"
       case .years: return isAr ? "سنوات" : "years"
       }
-      return ""
     }
 
   }
@@ -158,7 +157,7 @@ public class TimeAgo {
 
     // second
     if let second = components.second, second > 0 {
-      explainTime(isAr: isAr,
+      return explainTime(isAr: isAr,
                   period: second,
                   singleDesc: Times.second.str(isAr: isAr),
                   twoDesc: Times.twoSeconds.str(isAr: isAr),
