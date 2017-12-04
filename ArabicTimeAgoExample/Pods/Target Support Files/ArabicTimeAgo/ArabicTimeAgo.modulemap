@@ -1,0 +1,6 @@
+framework module ArabicTimeAgo {
+  umbrella header "ArabicTimeAgo-umbrella.h"
+
+  export *
+  module * { export * }
+}

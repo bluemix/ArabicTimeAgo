@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ArabicTimeAgo'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Arabic and English time ago in Swift'
 
 # This description is used to generate tags and improve search results.

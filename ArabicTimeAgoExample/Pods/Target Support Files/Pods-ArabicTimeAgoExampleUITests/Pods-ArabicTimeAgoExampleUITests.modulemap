@@ -1,0 +1,6 @@
+framework module Pods_ArabicTimeAgoExampleUITests {
+  umbrella header "Pods-ArabicTimeAgoExampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

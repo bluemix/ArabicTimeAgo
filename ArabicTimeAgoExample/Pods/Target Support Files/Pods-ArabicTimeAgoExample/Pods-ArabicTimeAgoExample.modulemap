@@ -1,0 +1,6 @@
+framework module Pods_ArabicTimeAgoExample {
+  umbrella header "Pods-ArabicTimeAgoExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
